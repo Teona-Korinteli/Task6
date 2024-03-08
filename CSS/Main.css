@@ -1,0 +1,94 @@
+.main-header {
+  height: 696px;
+  background-image: url("../images/Headding\ bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding-top: 32px;
+}
+
+.main-nav {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 53px;
+}
+
+.main-header .description {
+  color: #c0b4b4;
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  font-size: 24px;
+  margin-left: 0;
+}
+
+.nav-list .nav-item {
+  color: white;
+  font-size: 32px;
+}
+
+.articles .title {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+}
+
+.articles .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.articles .article:last-child {
+  display: none;
+}
+.articles {
+  padding: 48px 16px;
+}
+.articles .title {
+  margin-bottom: 32px;
+}
+
+.about {
+  background-color: black;
+  color: white;
+  padding: 48px 0;
+}
+.about .title {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+.footer .logo {
+  display: none;
+}
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+ 
+}
+
+footer {
+  height: 90px;
+  display: flex;
+}
