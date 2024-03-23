@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  align-items: center;
 }
 
 .main-header .container {
@@ -11,7 +12,7 @@
   align-items: center;
   justify-content: space-between;
 
-  margin: 0 auto;
+  margin: 0 35px;
   padding-top: 32px;
 }
 
@@ -67,7 +68,7 @@
 }
 .about .title {
   font-size: 36px;
-  text-align: center;
+  text-align:start;
   margin-top: 40px;
   margin-bottom: 32px;
 }
@@ -91,4 +92,9 @@
 footer {
   height: 90px;
   display: flex;
+}
+.burger-btn {
+  background-color: white;
+  border-radius: 25px;
+  padding:4px 6px
 }
